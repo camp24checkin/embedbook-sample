@@ -31,9 +31,9 @@ export default function Home() {
         {/* Content Container */}
         <div className="relative h-full flex flex-col items-center justify-center">
           {/* Text Content */}
-          <div className="z-20 text-center px-4 mb-24">
+          <div className="z-20 text-center px-4 mb-12 md:mb-24">
             <h1
-              className={`text-6xl font-bold mb-6 text-white transform transition-all duration-1000
+              className={`text-3xl sm:text-4xl md:text-6xl font-bold mb-4 md:mb-6 text-white transform transition-all duration-1000
                 ${
                   isVisible
                     ? "translate-y-0 opacity-100"
@@ -44,7 +44,7 @@ export default function Home() {
               Willkommen in unserem Premium Campingplatz
             </h1>
             <p
-              className={`text-xl text-white max-w-2xl mx-auto transform transition-all duration-1000 delay-300
+              className={`text-base sm:text-lg md:text-xl text-white max-w-2xl mx-auto transform transition-all duration-1000 delay-300
                 ${
                   isVisible
                     ? "translate-y-0 opacity-100"
@@ -57,22 +57,22 @@ export default function Home() {
           </div>
 
           {/* Animated Circle and Button */}
-          <div className="relative z-10 mt-8 md:mt-40">
+          <div className="relative z-10 mt-4 sm:mt-8 md:mt-40">
             {/* Outer rotating circle */}
             <div
-              className={`absolute -inset-16 md:-inset-40 border-4 border-white/20 rounded-full 
+              className={`absolute -inset-12 sm:-inset-16 md:-inset-40 border-2 sm:border-4 border-white/20 rounded-full 
                 animate-[spin_20s_linear_infinite] transition-opacity duration-1000
                 ${isVisible ? "opacity-100" : "opacity-0"}`}
             ></div>
             {/* Middle rotating circle */}
             <div
-              className={`absolute -inset-12 md:-inset-24 border-4 border-white/30 rounded-full 
+              className={`absolute -inset-8 sm:-inset-12 md:-inset-24 border-2 sm:border-4 border-white/30 rounded-full 
                 animate-[spin_15s_linear_infinite_reverse] transition-opacity duration-1000 delay-300
                 ${isVisible ? "opacity-100" : "opacity-0"}`}
             ></div>
             {/* Inner rotating circle */}
             <div
-              className={`absolute -inset-8 md:-inset-16 border-4 border-white/40 rounded-full 
+              className={`absolute -inset-4 sm:-inset-8 md:-inset-16 border-2 sm:border-4 border-white/40 rounded-full 
                 animate-[spin_10s_linear_infinite] transition-opacity duration-1000 delay-500
                 ${isVisible ? "opacity-100" : "opacity-0"}`}
             ></div>
@@ -80,10 +80,10 @@ export default function Home() {
             {/* Button with glow effect */}
             <button
               onClick={() => setIsOpen(true)}
-              className={`relative px-6 md:px-8 py-3 md:py-4 text-lg md:text-xl font-bold text-white bg-green-600 
+              className={`relative px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 text-base sm:text-lg md:text-xl font-bold text-white bg-green-600 
                 rounded-full transform transition-all duration-500 hover:scale-110
                 hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-500 
-                focus:ring-offset-2 focus:ring-offset-black/40
+                focus:ring-offset-2 focus:ring-offset-black/40 min-w-[120px]
                 ${
                   isVisible
                     ? "translate-y-0 opacity-100"
