@@ -57,22 +57,22 @@ export default function Home() {
           </div>
 
           {/* Animated Circle and Button */}
-          <div className="relative z-10 mt-40">
+          <div className="relative z-10 mt-8 md:mt-40">
             {/* Outer rotating circle */}
             <div
-              className={`absolute -inset-40 border-4 border-white/20 rounded-full 
+              className={`absolute -inset-16 md:-inset-40 border-4 border-white/20 rounded-full 
                 animate-[spin_20s_linear_infinite] transition-opacity duration-1000
                 ${isVisible ? "opacity-100" : "opacity-0"}`}
             ></div>
             {/* Middle rotating circle */}
             <div
-              className={`absolute -inset-24 border-4 border-white/30 rounded-full 
+              className={`absolute -inset-12 md:-inset-24 border-4 border-white/30 rounded-full 
                 animate-[spin_15s_linear_infinite_reverse] transition-opacity duration-1000 delay-300
                 ${isVisible ? "opacity-100" : "opacity-0"}`}
             ></div>
             {/* Inner rotating circle */}
             <div
-              className={`absolute -inset-16 border-4 border-white/40 rounded-full 
+              className={`absolute -inset-8 md:-inset-16 border-4 border-white/40 rounded-full 
                 animate-[spin_10s_linear_infinite] transition-opacity duration-1000 delay-500
                 ${isVisible ? "opacity-100" : "opacity-0"}`}
             ></div>
@@ -80,7 +80,7 @@ export default function Home() {
             {/* Button with glow effect */}
             <button
               onClick={() => setIsOpen(true)}
-              className={`relative px-8 py-4 text-xl font-bold text-white bg-green-600 
+              className={`relative px-6 md:px-8 py-3 md:py-4 text-lg md:text-xl font-bold text-white bg-green-600 
                 rounded-full transform transition-all duration-500 hover:scale-110
                 hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-500 
                 focus:ring-offset-2 focus:ring-offset-black/40
