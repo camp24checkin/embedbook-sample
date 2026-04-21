@@ -10,7 +10,7 @@ The integration provides a modern, responsive booking experience with a modal di
 
 ```
 Base URL: https://ifra.camp24checkin.de
-Example Areal ID: u0ukj94zwwp3
+Example Areal ID: swfzqp3cbcgu
 ```
 
 ## Implementation Examples
@@ -19,13 +19,13 @@ Example Areal ID: u0ukj94zwwp3
 
 ```html
 <iframe
-  src="https://ifra.camp24checkin.de/de?id=u0ukj94zwwp3"
+  src="https://ifra.camp24checkin.de/de?id=swfzqp3cbcgu"
   height="{800}"
   width="100%"
 />
 ```
 
-### Advanced Implementation with Dialog (Recommended)
+### Advanced Implementation with Dialog
 
 This implementation uses Headless UI's Dialog component to create a modal experience:
 
@@ -87,16 +87,6 @@ export default function BookingComponent() {
 }
 ```
 
-## Features
-
-- 🎯 Modal dialog implementation for better user experience
-- 🎨 Smooth transitions and animations
-- 📱 Fully responsive design
-- 🖥️ Backdrop blur effect for modern UI
-- ⌨️ Keyboard accessibility
-- 🔒 Focus trap management
-- 🎭 Clean transition animations
-
 ## Dependencies
 
 ```json
@@ -128,19 +118,6 @@ yarn add @headlessui/react
 - Handle errors appropriately
 - Test across different devices and screen sizes
 
-## Browser Support
-
-The implementation is compatible with all modern browsers:
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## License
-
-MIT
-
 ---
 
-For more information about Camp24 integration, visit [Camp24 Documentation](https://ifra.camp24checkin.de).
+For more information about Camp24 integration, visit [Camp24 Sample](https://camp24checkinsample.vercel.app/).
