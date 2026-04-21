@@ -25,7 +25,7 @@ Example Areal ID: u0ukj94zwwp3
 />
 ```
 
-### Advanced Implementation with Dialog (Recommended)
+### Advanced Implementation with Dialog
 
 This implementation uses Headless UI's Dialog component to create a modal experience:
 
@@ -87,16 +87,6 @@ export default function BookingComponent() {
 }
 ```
 
-## Features
-
-- 🎯 Modal dialog implementation for better user experience
-- 🎨 Smooth transitions and animations
-- 📱 Fully responsive design
-- 🖥️ Backdrop blur effect for modern UI
-- ⌨️ Keyboard accessibility
-- 🔒 Focus trap management
-- 🎭 Clean transition animations
-
 ## Dependencies
 
 ```json
@@ -127,19 +117,6 @@ yarn add @headlessui/react
 - Implement loading states if needed
 - Handle errors appropriately
 - Test across different devices and screen sizes
-
-## Browser Support
-
-The implementation is compatible with all modern browsers:
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## License
-
-MIT
 
 ---
 
