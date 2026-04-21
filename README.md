@@ -143,4 +143,4 @@ MIT
 
 ---
 
-For more information about Camp24 integration, visit [Camp24 Documentation](https://ifra.camp24checkin.de).
+For more information about Camp24 integration, visit [Camp24 Sample](https://camp24checkinsample.vercel.app/).
