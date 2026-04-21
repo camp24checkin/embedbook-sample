@@ -10,7 +10,7 @@ The integration provides a modern, responsive booking experience with a modal di
 
 ```
 Base URL: https://ifra.camp24checkin.de
-Example Areal ID: u0ukj94zwwp3
+Example Areal ID: swfzqp3cbcgu
 ```
 
 ## Implementation Examples
@@ -19,7 +19,7 @@ Example Areal ID: u0ukj94zwwp3
 
 ```html
 <iframe
-  src="https://ifra.camp24checkin.de/de?id=u0ukj94zwwp3"
+  src="https://ifra.camp24checkin.de/de?id=swfzqp3cbcgu"
   height="{800}"
   width="100%"
 />
